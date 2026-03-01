@@ -8,7 +8,7 @@ resource "azurerm_storage_account" "stgs" {
   resource_group_name      = "test-rg"
   # location                 = "eastus 2"
   location                 = "Central India"
-  account_tier             = "Standard"
+  account_tier             = "Premiunm"
   account_replication_type = "GRS"
 
 
